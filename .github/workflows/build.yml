@@ -1,6 +1,7 @@
 name: Build
 on:
   push:
+    tags-ignore: ["*"]
     paths:
       - Dockerfile
       # [NOTE] Add more paths here if needed
