@@ -26,4 +26,4 @@ jobs:
           platforms: linux/arm64,linux/amd64
           push: false
           cache-from: type=gha
-          cache-to: type=gha
+          cache-to: type=gha,mode=max
